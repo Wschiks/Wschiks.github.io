@@ -346,7 +346,10 @@ h3 {
 
 
 
+.ruimten{
+    height: 30px;
 
+}
 
 
 
@@ -519,6 +522,10 @@ nav {
 
 .h1-vak {
     font-size: 1.5vw;
+    color: #1e8089;
+}
+.h3-vak {
+    font-size: 1vw;
     color: #1e8089;
 }
 
