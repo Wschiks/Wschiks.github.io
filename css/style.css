@@ -106,6 +106,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+.zwartt {
+    width: 100%;
+    height: 60vw;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media only screen and (max-width: 600px) {
     .zwart {
@@ -172,13 +180,20 @@ p {
 .top-vak-mij {
     display: flex;
     align-items: center;
-    width: 50vw;
+    width: 20%vw;
     height: 7vh;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     background-color: #5F6D91;
 }
 
+
+@media only screen and (max-width: 600px) {
+    .vakje-flex {
+        margin-bottom: -300px;
+        
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .top-vak-mij {
@@ -194,6 +209,12 @@ p {
     width: 1.7vw;
     border-radius: 20px;
     background-color: #8EA1D1;
+}
+
+@media only screen and (max-width: 600px) {
+    .rondje-vak-mij {
+        height: 1vh;
+    }
 }
 
 .een {
@@ -231,12 +252,18 @@ p {
 .foto-wout {
     width: 40vw;
     height: 17vw;
-    background-color: antiquewhite;
 }
+
 
 .foto {
     width: 40vw;
     height: 17vw;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .foto {
+        height: 15vw;
+    }
 }
 
 .teks-vak {
@@ -336,6 +363,14 @@ h2 {
     width: 37vw;
     border-radius: 3vw;
 }
+@media only screen and (max-width: 900px) {
+    .info-foto {
+        display: none;
+    }
+
+}
+
+
 
 h3 {
     font-family: 'MuseoModerno', sans-serif;
@@ -439,8 +474,9 @@ nav {
 
 @media only screen and (max-width: 600px) {
     .designVak {
-        height: 40vh;
+        height: 35vh;
         bottom: 2vh;
+        border-radius: 35px;
     }
 }
 
@@ -459,7 +495,7 @@ nav {
 
 .tekst-design {
     padding: 2vw;
-    height: 90%;
+    height: 90vh;
     width: 90%;
 }
 
@@ -496,34 +532,48 @@ nav {
     width: 300px;
     height: 50vh;
     border-radius: 40px;
-    background-color: #E8E8E8;
-
+    background-color: #ffffff;
 }
 
 @media only screen and (max-width: 600px) {
     .vak {
+       margin-top: 70px;
         width: 40%;
-        height: 25vh
+        height: 100px;
+        border-radius: 23px;
+        
     }
 }
 
 .vakje {
-    width: 300px;
+    width: 100%;
     background-color: #14585E;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
+    height: 20%;
 }
+
+@media only screen and (max-width: 600px) {
+    .vakje {
+        height: 15%;
+    }
+}
+
+
 
 .teks-vakje {
     height: 80%;
     width: 90%;
     padding: 1vw;
+    
 }
 
 .h1-vak {
     font-size: 1.5vw;
     color: #1e8089;
 }
+
+
 .h3-vak {
     font-size: 1vw;
     color: #1e8089;
