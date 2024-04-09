@@ -474,7 +474,7 @@ nav {
 
 @media only screen and (max-width: 600px) {
     .designVak {
-        height: 28vh;
+        height: 31vh;
         bottom: 2vh;
         border-radius: 40px;
     }
