@@ -211,6 +211,12 @@ p {
     background-color: #8EA1D1;
 }
 
+@media only screen and (max-width: 600px) {
+    .rondje-vak-mij {
+        height: 1vh;
+    }
+}
+
 .een {
     margin-left: 23px;
 }
@@ -468,8 +474,9 @@ nav {
 
 @media only screen and (max-width: 600px) {
     .designVak {
-        height: 40vh;
+        height: 35vh;
         bottom: 2vh;
+        border-radius: 35px;
     }
 }
 
@@ -526,20 +533,19 @@ nav {
     height: 50vh;
     border-radius: 40px;
     background-color: #ffffff;
-
 }
 
 @media only screen and (max-width: 600px) {
     .vak {
        margin-top: 70px;
         width: 40%;
-        height: 20vh;
-        background-color: #ffffff;
+        height: 100px;
+        border-radius: 23px;
+        
     }
 }
 
 .vakje {
-    
     width: 100%;
     background-color: #14585E;
     border-top-left-radius: 40px;
@@ -547,6 +553,11 @@ nav {
     height: 20%;
 }
 
+@media only screen and (max-width: 600px) {
+    .vakje {
+        height: 15%;
+    }
+}
 
 
 
@@ -554,12 +565,15 @@ nav {
     height: 80%;
     width: 90%;
     padding: 1vw;
+    
 }
 
 .h1-vak {
     font-size: 1.5vw;
     color: #1e8089;
 }
+
+
 .h3-vak {
     font-size: 1vw;
     color: #1e8089;
