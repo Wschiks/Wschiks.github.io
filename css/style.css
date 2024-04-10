@@ -528,8 +528,8 @@ nav {
 
 @media only screen and (max-width: 600px) {
     .vakje-flex {
-        
-        height: 30vh;
+        bottom: 30vh;
+        height: 40vh;
     }
 }
 
