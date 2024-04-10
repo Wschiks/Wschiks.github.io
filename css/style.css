@@ -526,7 +526,15 @@ nav {
     flex-wrap: wrap;
 }
 
+@media only screen and (max-width: 600px) {
+    .vakje-flex {
+        
+        height: 30vh;
+        margin-top: 70px;
 
+        
+    }
+}
 
 .vak {
     width: 300px;
@@ -555,6 +563,7 @@ nav {
 
 @media only screen and (max-width: 600px) {
     .vakje {
+        
         height: 15%;
     }
 }
